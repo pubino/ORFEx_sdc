@@ -493,6 +493,7 @@ div#block-views-upcoming-session-block {
   font-size: 1.25em;
 }
 #header #name-and-slogan #site-name a, #header #site-name a #site-name a {
+  color: whitesmoke;
   text-align: center;
   font-family: "Oswald", sans-serif;
   border-bottom-width: 12px;
