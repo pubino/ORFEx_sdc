@@ -648,7 +648,7 @@ div#block-views-upcoming-session-block {
   justify-content: center;
 }
 @media screen and (max-width: 960px) {
-  .action-button-block {
+  .action-button-block .content {
     flex-flow: column;
   }
 }
