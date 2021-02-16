@@ -1,8 +1,5 @@
-// Font Import
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
-// Variables
-/* $orfe-font: 'Oxygen', sans-serif; */
 $orfe_conference_font: "Open Sans", sans-serif;
 $breakpoint: 850px;
 $orfe_conference_sitewidth: 1280px;
@@ -14,21 +11,14 @@ $feb_bgcolor: rgba(255,24,239,0.4);
 $mar_bgcolor: rgba(0, 135, 221, 0.77);
 $apr_bgcolor: rgba(96, 112, 122, 0.77);
 $pu_orange: #E5863E;
-.sidebar .section {
-padding: 1em 0 0 0;
-}
+$page_bg_color: black;
 
 #page {
-background: black;
-}
-
-
-h1#page-title {
-margin: 1em 0 1em 0;
+background: $page_bg_color;
 }
 
 #main-wrapper {
-background: black;
+background: $page_bg_color;
 min-height: 500px;
 background-image: url('https://orfe.princeton.edu/sites/orfe.princeton.edu.conferences.sdc/themes/ORFEx_sdc/images/background-pink-wedge-left-03.png');
 background-position: top center;
@@ -1491,8 +1481,6 @@ width: 100%;
 
 //} /* End body */
 
-// Exceptions
-
 .page-admin-config .admin {
 background-color:white;
 color:black;
@@ -1530,249 +1518,3 @@ list-style-type:none;
 }
 } /* End body.node-type-speaker */
 
-.page-home {
-.tabs {
-display: none;
-}
-#main-wrapper #main #content {
-margin: 0;
-}
-}
-
-/* Begin body.page-user-edit */
-body.page-user-edit, body.page-user-me-edit {
-#user-profile-form {
-margin-top: 2em;
-.restrict-by-ip, .form-item-cas-name, #edit-profile-display-options-redirect {
-display: none;
-}
-}
-}
-/* End body.page-user-edit */
-
-
-/* Begin body.one-sidebar exception */
-
-@media screen and (min-width: 960px) {
-body.one-sidebar #content {
-padding-left: 25%;
-}
-}
-
-/* End body.one-sidebar exception */
-
-
-body.page-research { /* Begin body.page-research */
-
-a {
-text-transform: capitalize;
-}
-
-} /* End body.page-research */
-
-body.page-events {
-.view-header, ul>li {
-margin-bottom: 1em;
-}
-}
-
-body.page-news-spotlight {
-.views-row {
-margin-bottom: 5em;
-}
-.views-field-title {
-margin-top: 1em;
-}
-}
-
-body.node-type-abstract { /* Begin body.node-type-abstract */
-.field-name-field-speaker-vocabulary-term {
-font-size: 1.5em;
-}
-.field-name-field-institution {
-font-size: 1.3em;
-}
-} /* End body.node-type-abstract */
-
-body.page-people, body.page-research { /* Begin body.page-people, body.page-research */
-
-@media screen and (max-width: 860px) {
-.block ul {
-padding: 0;
-}
-.item-list ul li {
-margin: 0;
-}
-}
-
-.contact-card {
-  float: left;
-  list-style: none;
-  width: 46%;
-
-@media screen and (max-width: 1024px) {
-float: none;
-list-style: none;
-width: 100%;
-padding: 0 0 5% 0 !important;
-}
-
-@media screen and (max-width: 860px) {
-padding: 0 0 5% 0 !important;
-}
-
-
-}
-
-.contact-card {
-  min-height: 15em;
-margin-bottom: 1em;
-}
-
-.item-list ul li .views-field-picture {
-  float: left;
-  padding: 0 1em 0 0;
-}
-
-.view-people.faculty .views-field-field-researchicon ul li {
-  clear: none;
-  float: left;
-  list-style-type: none;
-  margin: 0 0.25em 0 0.25em;
-  padding: 0;
-}
-
-} /* End body.page-people */
-
-body.page-people-faculty-slideshow, body.page-events-atrium { /* Begin body.page-events-atrium and body.page-events-atrium  */
-#branding, #header, #headerwell, .mean-bar, #sidebar-first, #footer-wrapper {
-display: none;
-}
-
-#page-wrapper {
-background: black;
-}
-
-#main-wrapper #main {
-margin: 0;
-#content {
-h1, h1#pagetitle {
-font-size: 2em;
-}
-}
-}
-
-#content {
-margin-left: 0;
-width: 100%;
-background-color: transparent;
-}
-
-} /* End body.page-events-atrium and body.page-events-atrium */
-
-body.page-events-atrium { /* Begin body.page-events-atrium */
-margin-top: 1em;
-
-.event {
-font-size: 1.375em;
-}
-
-} /* End body.page-events-atrium */
-
-body.page-spotlight-atrium { /* Begin .page-spotlight-atrium */
-
-#block-search, #headerwell, #footer {
-display: none;
-}
-
-#main {
-min-width: 1920px;
-}
-
-#main-wrapper {
-margin: 0;
-min-height: unset;
-}
-
-#header div.section, #branding .section {
-max-width: inherit;
-}
-
-#header {
-height: 110px;
-max-height: inherit;
-}
-
-.views-field-title {
-font-size: 2em;
-}
-
-.views-field-body {
-font-size: 1.5em;
-}
-
-} /* End .page-spotlight-atrium */
-
-
-body.page-people-faculty-slideshow { /* Begin body.page-people-faculty-slideshow */
-
-background-color: black;
-
-#branding, #header, #headerwell, .mean-bar, #sidebar-first, #footer-wrapper {
-display: none;
-}
-
-#page, #main-wrapper {
-background: black;
-color: white;
-margin: 0;
-}
-
-#main {
-max-width: inherit;
-}
-
-#content {
-h1 {
-font-family: 'Oswald', sans-serif;
-color: $header_color;
-position: absolute;
-z-index: 10;
-}
-h1#pagetitle {
-margin: 0.5em 0 0 0.5em;
-}
-
-}
-
-
-
-.views_slideshow_cycle_slide {
-width: inherit;
-}
-
-.views-row {
-float: left;
-max-width: 284px;
-text-align: center;
-margin: 0.5em 0 0 0;
-}
-
-.faculty-picture img {
-height: 426px;
-max-height: 426px;
-width: 290px;
-max-width: 290px;
-}
-
-} /* End body.page-people-faculty-slideshow */
-
-
-#views-exposed-form-graduate-employment-page {
-label {
-font-weight: normal;
-font-size: 1.1em;
-border-bottom: 1px solid gray;
-margin-bottom: 1em;
-}
-}
