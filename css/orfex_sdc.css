@@ -404,14 +404,11 @@ div#block-views-upcoming-session-block {
 }
 
 #page-wrapper {
-  /* Begin #page-wrapper */
   background: black;
   min-width: 370px;
 }
 
-/* End #page-wrapper */
 #branding {
-  /* Begin #branding */
   margin: 0 0 0 0;
   /* End #block-administration-menu-block */
   /* End #block-search within #branding */
@@ -489,13 +486,7 @@ div#block-views-upcoming-session-block {
   }
 }
 
-/* End #branding */
 #header {
-  padding: 0 0 2em 0;
-  background-image: none;
-  max-width: 1280px;
-  min-height: auto;
-  margin: auto;
   background-color: black;
   /* End #logo within #header */
 }
@@ -537,9 +528,7 @@ div#block-views-upcoming-session-block {
   display: block;
 }
 
-/* End #header */
 #headerwell {
-  /* Begin #headerwell */
   background-color: black;
   /* End #block-main-menu-block within #headerwell */
 }
@@ -607,46 +596,18 @@ div#block-views-upcoming-session-block {
   margin: 0;
   padding: 0 1em 0 1em;
 }
-/* End #headerwell */
 #main-wrapper {
-  /* Begin #main-wrapper */
   max-width: 1280px;
   margin: auto;
-  /* End #main */
-}
-#main-wrapper #main {
-  /* Begin #main */
-  /* End #content */
-}
-@media screen and (max-width: 860px) {
-  #main-wrapper #main {
-    margin: 0;
-  }
-}
-#main-wrapper #main #content {
-  /* Begin #content */
-  /* End h2 within #content, #main-wrapper */
-  /* End h3 within #content, #main-wrapper */
-  /* Begin h4 within #content, #main-wrapper */
-  /* End #block-message-from-the-chair */
-}
-#main-wrapper #main #content .section {
-  padding: 0;
-}
-#main-wrapper #main #content h1#pagetitle {
-  color: black;
 }
 #main-wrapper #main #content h1, #main-wrapper #main #content h1#pagetitle {
   margin: 0.5em 0 0.5em 0;
   text-align: center;
-  /* text-transform: uppercase; */
-  /* color: #f77f00; */
   font-size: 2.75em;
   font-weight: normal;
   font-family: "Oswald", sans-serif;
 }
 #main-wrapper #main #content h2 {
-  /* Begin h2 within #content, #main-wrapper */
   margin: 0.5em 0 0.5em 0;
   font-size: 2.35em;
   text-align: center;
@@ -654,7 +615,6 @@ div#block-views-upcoming-session-block {
   font-family: "Oswald", sans-serif;
 }
 #main-wrapper #main #content h3 {
-  /* Begin h3 within #content, #main-wrapper */
   font-size: 2.25em;
   margin-bottom: 0;
   font-weight: bold;
@@ -688,32 +648,7 @@ div#block-views-upcoming-session-block {
   font-style: italic;
   font-size: 1.25em;
 }
-#main-wrapper #main #content #block-welcome-to-orfe, #main-wrapper #main #content #block-message-from-the-chair {
-  /* Begin #block-message-from-the-chair */
-}
-#main-wrapper #main #content #block-welcome-to-orfe .views-row, #main-wrapper #main #content #block-message-from-the-chair .views-row {
-  margin: 0;
-}
-#main-wrapper #main #content #block-welcome-to-orfe .chair-photo, #main-wrapper #main #content #block-message-from-the-chair .chair-photo {
-  float: left;
-  margin: 0 1em 0 0;
-}
-@media screen and (max-width: 640px) {
-  #main-wrapper #main #content #block-welcome-to-orfe .chair-photo, #main-wrapper #main #content #block-message-from-the-chair .chair-photo {
-    float: none;
-    text-align: center;
-    margin: 1em 0 1em 0;
-  }
-}
-#main-wrapper #main #content #block-department-officers {
-  margin: 1em 0 1em 0;
-}
-#main-wrapper #main .region-diptych-first, #main-wrapper #main .region-diptych-second, #main-wrapper #main .region-diptych-third, #main-wrapper #main .region-diptych-fourth {
-  float: left;
-  width: 47%;
-}
 
-/* End #main-wrapper */
 @media screen and (min-width: 960px) {
   #footer {
     width: 100%;
@@ -729,94 +664,9 @@ div#block-views-upcoming-session-block {
   /* color: #fcfcfc; */
   font-family: inherit;
   font-size: inherit;
-  /* End #footer-columns */
-  /* End #block-user-menu-block within #footer, #footer-wrapper */
-  /* End #engineeringsignature within #footer-wrapper */
-}
-#footer-wrapper #footer {
-  margin: 0;
-}
-#footer-wrapper .section {
-  padding-left: 0;
-  padding-right: 0;
-}
-#footer-wrapper a, #footer-wrapper a:active, #footer-wrapper a:hover {
-  color: #00a2ff;
-}
-#footer-wrapper .block {
-  margin: 0;
-  padding: 0;
-}
-@media screen and (max-width: 640px) {
-  #footer-wrapper .block {
-    text-align: center;
-  }
-}
-#footer-wrapper #footer-columns {
-  /* Begin #footer-columns */
-  /* End .region-footer-fifthcolumn within #footer-columns, #footer-wrapper */
-}
-#footer-wrapper #footer-columns .block {
-  border: none;
-  text-align: center;
-}
-#footer-wrapper #footer-columns div[class*=region-footer-] {
-  width: 20%;
-}
-#footer-wrapper #footer-columns .region-footer-fourthcolumn {
-  float: left;
-}
-#footer-wrapper #footer-columns .region-footer-fifthcolumn {
-  /* Begin .region-footer-fifthcolumn within #footer-columns, #footer-wrapper */
-  margin: auto;
-  float: right;
-  /* End centering the Facebook logo on narrow displays. */
-}
-@media screen and (max-width: 640px) {
-  #footer-wrapper #footer-columns .region-footer-fifthcolumn {
-    /* Begin centering the Facebook logo on narrow displays. */
-    margin: auto;
-    float: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  #footer-wrapper #footer-columns {
-    float: none;
-    margin: auto;
-  }
-}
-#footer-wrapper #footer-columns #orfe-logo-block, #footer-wrapper #footer-columns #cfmar-logo-block {
-  padding-top: 25px;
-}
-#footer-wrapper #footer-columns #nsf-logo-block {
-  margin-top: -15px;
-}
-#footer-wrapper #footer {
-  /* Begin #footer within #footer-wrapper */
-  margin-top: 0;
-  border-top: none;
-}
-#footer-wrapper #footer .block {
-  clear: none;
-  padding: 1em 0 1em 0;
-}
-#footer-wrapper #block-user-menu-block {
-  /* Begin #block-user-menu-block within #footer, #footer-wrapper */
-  color: white;
-}
-#footer-wrapper #engineeringsignature {
-  /* Begin #engineeringsignature within #footer-wrapper */
-  width: 20%;
-  min-width: 225px;
-  margin-left: -20px;
-}
-@media screen and (max-width: 640px) {
-  #footer-wrapper #engineeringsignature {
-    margin: 0;
-    width: 100%;
-  }
 }
 
+/* End #footer-columns */
 .page-admin-config .admin {
   background-color: white;
   color: black;

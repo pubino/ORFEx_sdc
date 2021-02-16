@@ -12,14 +12,14 @@ $feb_bgcolor: rgba(255,24,239,0.4);
 $mar_bgcolor: rgba(0, 135, 221, 0.77);
 $apr_bgcolor: rgba(96, 112, 122, 0.77);
 $pu_orange: #E5863E;
-$page_bg_color: black;
+$site_bg_color: black;
 
 #page {
-background: $page_bg_color;
+background: $site_bg_color;
 }
 
 #main-wrapper {
-background: $page_bg_color;
+background: $site_bg_color;
 background-image: url('https://orfe.princeton.edu/sites/orfe.princeton.edu.conferences.sdc/themes/ORFEx_sdc/images/background-pink-wedge-left-03.png');
 background-position: top center;
 background-repeat: no-repeat;
@@ -447,14 +447,12 @@ div#block-views-upcoming-session-block {
 text-align:center;
 }
 
-#page-wrapper { /* Begin #page-wrapper */
+#page-wrapper {
 background: black;
 min-width: 370px;
+}
 
-} /* End #page-wrapper */
-
-#branding { /* Begin #branding */
-
+#branding {
 margin:0 0 0 0;
 
 #block-administration-menu-block { /* begin #block-administration-menu-block */
@@ -550,15 +548,10 @@ margin-left: 0.5em;
 
 } /* End #block-search within #branding */
 
-} /* End #branding */
+}
 
 #header {
-padding: 0 0 2em 0;
-background-image: none;
-max-width: $orfe_conference_sitewidth;
-min-height: auto;
-margin: auto;
-background-color: black;
+background-color: $site_bg_color;
 
 div.section {
 max-width: 100%;
@@ -606,11 +599,10 @@ font-size: 1.25em;
 }
 
 
-} /* End #header */
+}
 
-#headerwell { /* Begin #headerwell */
-
-background-color: black;
+#headerwell {
+background-color: $site_bg_color;
 
 #block-administration-menu-block {
 
@@ -699,68 +691,37 @@ padding:0 1em 0 1em;
 #block-system-help {
 }
 
-} /* End #headerwell */
+}
 
-#main-wrapper { /* Begin #main-wrapper */
-
+#main-wrapper {
 max-width: $orfe_conference_sitewidth;
 margin: auto;
 
-@media screen and (max-width: 860px) {
-}
-
-
-#main { /* Begin #main */
-
-
-// margin: auto;
-@media screen and (max-width: 860px) {
-margin: 0;
-}
-
-#content { /* Begin #content */
-
-@media screen and (max-width: 1290px) {
-}
-
-@media screen and (min-width: 1290px) {
-}
-
-
-.section {
-padding: 0;
-}
-
-h1#pagetitle {
-color: black;
-}
-
+#main {
+#content {
 
 h1, h1#pagetitle {
 margin: 0.5em 0 0.5em 0;
 text-align:center;
-/* text-transform: uppercase; */
-/* color: #f77f00; */
 font-size: 2.75em;
 font-weight: normal;
 font-family: $orfe_conference_header_font;
 }
 
-h2 { /* Begin h2 within #content, #main-wrapper */
+h2 {
 margin: 0.5em 0 0.5em 0;
 font-size: 2.35em;
 text-align:center;
 border-bottom: none;
 font-family: "Oswald", sans-serif;
-} /* End h2 within #content, #main-wrapper */
+}
 
-
-h3 { /* Begin h3 within #content, #main-wrapper */
+h3 {
 font-size: 2.25em;
 margin-bottom: 0;
 font-weight: bold;
 font-family: 'Oswald', sans-serif;
-} /* End h3 within #content, #main-wrapper */
+}
 
 h3.session-subtitle {
 font-size: 1.15em;
@@ -790,129 +751,12 @@ h4 { /* Begin h4 within #content, #main-wrapper */
 margin: 1em 0 1em 0;
 font-style: italic;
 font-size: 1.25em;
-} /* Begin h4 within #content, #main-wrapper */
-
-#block-external-job-sites {
 }
 
-#block-welcome-to-orfe, #block-message-from-the-chair { /* Begin #block-message-from-the-chair */
-
-.views-row {
-margin: 0;
 }
-
-.chair-photo {
-float: left;
-margin: 0 1em 0 0;
-}
-
-@media screen and (max-width: 640px) {
-.chair-photo {
-float: none;
-text-align: center;
-margin: 1em 0 1em 0;
 }
 }
 
-} /* End #block-message-from-the-chair */
-
-#block-main-content {
-}
-
-#block-financial-mathematics-research-collaborations {
-}
-
-#block-financial-mathematics-research-groups {
-}
-
-#block-financial-mathematics-faculty {
-}
-
-#block-machine-learning-research-groups {
-}
-
-#block-machine-learning-faculty {
-}
-
-#block-operations-research-research-groups {
-}
-
-#block-operations-research-faculty {
-}
-
-#block-optimization-research-groups {
-}
-
-#block-optimization-faculty {
-}
-
-#block-probability-research-groups {
-}
-
-#block-probability-faculty {
-}
-
-#block-statistics-research-groups {
-}
-
-#block-statistics-faculty {
-}
-
-#block-faculty-quick-reference {
-}
-
-#block-visitors-quick-reference {
-}
-
-#block-researchandtechnicalstaff-quick-reference {
-}
-
-#block-administrativestaff-quick-reference {
-}
-
-#block-conferencerooms-quick-reference {
-}
-
-#block-department-officers {
-margin: 1em 0 1em 0;
-}
-
-#block-studentcouncil-upcoming-events {
-}
-
-#block-computing-help {
-}
-
-#block-other-help {
-}
-
-#block-policies-help {
-}
-
-#block-procedures-help {
-}
-
-#block-student-help {
-}
-
-#block-webform-submit-reservation {
-}
-
-#block-submit-webform-facilities {
-}
-
-} /* End #content */
-
-.region-diptych-first, .region-diptych-second, .region-diptych-third, .region-diptych-fourth {
-	float: left;
-	width: 47%;
-
-}
-
-} /* End #main */
-
-
-} /* End #main-wrapper */
 @media screen and (min-width: 960px) {
 
 #footer {
@@ -931,96 +775,7 @@ padding-top: 0;
 font-family: inherit;
 font-size: inherit;
 
-
-#footer {
-margin: 0;
-}
-
-.section {
-padding-left: 0;
-padding-right: 0;
-}
-
-a, a:active, a:hover {
-color: #00a2ff;
-}
-
-.block {
-margin: 0;
-padding: 0;
-@media screen and (max-width: 640px) {
-text-align: center;
-}
-}
-
-#footer-columns { /* Begin #footer-columns */
-.block {
-border: none;
-text-align: center;
-}
-
-div[class*="region-footer-"] {
-	width: 20%;
-}
-
-.region-footer-fourthcolumn {
-float: left;
-}
-
-.region-footer-fifthcolumn { /* Begin .region-footer-fifthcolumn within #footer-columns, #footer-wrapper */
-margin: auto;
-float: right;
-
-@media screen and (max-width: 640px) { /* Begin centering the Facebook logo on narrow displays. */
-margin: auto;
-float: none;
-} /* End centering the Facebook logo on narrow displays. */
-} /* End .region-footer-fifthcolumn within #footer-columns, #footer-wrapper */ 
-
-@media screen and (max-width: 768px) {
-float: none;
-margin: auto;
-}
-
-#orfe-logo-block, #cfmar-logo-block {
-padding-top: 25px;
-}
-#nsf-logo-block {
-margin-top: -15px;
-}
-
 } /* End #footer-columns */
-
-#footer { /* Begin #footer within #footer-wrapper */
-margin-top: 0;
-border-top: none;
-
-
-.block {
-clear: none;
-padding: 1em 0 1em 0;
-}
-}
-
-#block-user-menu-block { /* Begin #block-user-menu-block within #footer, #footer-wrapper */
-        color: white;
-} /* End #block-user-menu-block within #footer, #footer-wrapper */
-
-
-#engineeringsignature { /* Begin #engineeringsignature within #footer-wrapper */
-width: 20%;
-min-width: 225px;
-margin-left: -20px;
-
-@media screen and (max-width: 640px) {
-margin: 0;
-width: 100%;
-}
-
-
-} /* End #engineeringsignature within #footer-wrapper */
-
-}
 
 .page-admin-config .admin {
 background-color:white;
