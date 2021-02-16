@@ -115,7 +115,6 @@ padding: 1em 0 1em 0;
 tr {
 background: transparent;
 }
-
 td {
 padding: 1em;
 border-radius: 25px;
@@ -123,7 +122,6 @@ border: none;
 color: white;
 
 }
-
 td.col-1 {
 background-color: $dec_bgcolor;
 }
@@ -133,7 +131,6 @@ background-color: $feb_bgcolor;
 td.col-3 {
 background-color: $mar_bgcolor;
 }
-
 td.col-4 {
 background-color: $apr_bgcolor;
 }
@@ -171,19 +168,7 @@ color: black;
 }
 }
 
-.node-about-page {
-ul {
-text-align:center;
-margin:0 !important;
-padding:0;
-list-style-type:none;
-}
-}
-
 .node-type-webform {
-.form-item {
-//color: white;
-}
 .webform-client-form {
 background-color: white;
 padding: 1em;
@@ -231,19 +216,6 @@ font-family: 'Open Sans', sans-serif !important;
 .views-edit-view.views-admin {
 background-color:white;
 color:black;
-}
-
-.logged-in .tabs {
-margin-bottom: 0;
-}
-
-.featured-panelists-header, .moderator-header{
-background-image: radial-gradient(circle at top left,#9000f7 0%,#fc23e6 100%);
-font-size: 1.75em;
-text-transform: uppercase;
-text-align: center;
-border-radius: 15px;
-margin: 0.5em 0 0.5em 0;
 }
 
 .view-sdc-sessions .view-content, .views-field-field-sponsor-logo {
@@ -303,8 +275,6 @@ text-align:center;
 padding:0;
 margin:0;
 }
-li {
-}
 }
 
 .view-session-node-override {
@@ -316,25 +286,18 @@ float: left;
 float: none;
 text-align:center;
 }
-
 }
-}
-
-.view-sdc-sessions .view-content .featured-panelists-embedded-view {
 }
 
 .featured-panelist-profile {
-//display: flex;
 .views-field-views-conditional {
 min-width: 300px;
 padding: 2em;
 float: left;
-
 @media screen and (max-width: 960px) {
 float: none;
 text-align:center;
 }
-
 }
 }
 
@@ -370,9 +333,6 @@ text-align:center;
 }
 }
 
-.region-content {
-}
-
 .form-item {
 color:black;
 }
@@ -394,21 +354,6 @@ white-space: nowrap;
 text-transform: capitalize;
 }
 
-.mean-container {
-.mean-bar {
-background: #818285;
-float: none;
-margin: 0 0 1em 0;
-}
-.mean-nav ul li a {
-text-transform: none;
-}
-
-.mean-nav {
-background: #818285;
-}
-}
-
 .breadcrumb {
 display: none;
 }
@@ -420,11 +365,6 @@ background: black;
 .section, .region, .block .content {
 padding: 0;
 margin-top: 0;
-}
-
-.logged-in .tabs, .tabs {
-font-family: inherit;
-margin-bottom: 0;
 }
 
 .container-inline-date > .form-item {
@@ -465,16 +405,12 @@ margin: 0 0 0 1em;
 font-size: inherit;
 }
 
-.logged-in .tabs {
-margin-bottom: 1em;
-}
-
-.form-item { /* Begin .form-item */
+.form-item {
 margin: 1.5em 0 1.5em 0
 label {
 font-size: inherit;
 }
-} /* End .form-item */
+}
 
 .webform-client-form {
 margin: 1em 0 0 0;
@@ -510,7 +446,6 @@ text-align:center;
 div#block-views-upcoming-session-block {
 text-align:center;
 }
-
 
 #page-wrapper { /* Begin #page-wrapper */
 background: black;
@@ -577,7 +512,7 @@ color: #06a5ff;
 .section { /*Begin .section within #branding */
 margin: 0 auto;
 max-width: 1290px;
-} /* End .section within #branding */
+}
 
 #block-princeton-university-logo {
 float: left;

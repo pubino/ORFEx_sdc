@@ -144,13 +144,6 @@ a {
   color: black;
 }
 
-.node-about-page ul {
-  text-align: center;
-  margin: 0 !important;
-  padding: 0;
-  list-style-type: none;
-}
-
 .node-type-webform .webform-client-form {
   background-color: white;
   padding: 1em;
@@ -192,19 +185,6 @@ a {
 .views-edit-view.views-admin {
   background-color: white;
   color: black;
-}
-
-.logged-in .tabs {
-  margin-bottom: 0;
-}
-
-.featured-panelists-header, .moderator-header {
-  background-image: radial-gradient(circle at top left, #9000f7 0%, #fc23e6 100%);
-  font-size: 1.75em;
-  text-transform: uppercase;
-  text-align: center;
-  border-radius: 15px;
-  margin: 0.5em 0 0.5em 0;
 }
 
 .view-sdc-sessions .view-content, .views-field-field-sponsor-logo {
@@ -264,6 +244,7 @@ a {
   padding: 0;
   margin: 0;
 }
+
 .view-session-node-override .views-field-field-photo, .view-session-node-override .views-field-field-photo-1 {
   padding: 1em;
   font-size: 2.25em;
@@ -339,18 +320,6 @@ a {
   text-transform: capitalize;
 }
 
-.mean-container .mean-bar {
-  background: #818285;
-  float: none;
-  margin: 0 0 1em 0;
-}
-.mean-container .mean-nav ul li a {
-  text-transform: none;
-}
-.mean-container .mean-nav {
-  background: #818285;
-}
-
 .breadcrumb {
   display: none;
 }
@@ -362,11 +331,6 @@ a {
 .section, .region, .block .content {
   padding: 0;
   margin-top: 0;
-}
-
-.logged-in .tabs, .tabs {
-  font-family: inherit;
-  margin-bottom: 0;
 }
 
 .container-inline-date > .form-item {
@@ -403,17 +367,11 @@ ul.menu li {
   font-size: inherit;
 }
 
-.logged-in .tabs {
-  margin-bottom: 1em;
-}
-
 .form-item {
-  /* Begin .form-item */
   margin: 1.5em 0 1.5em 0 label;
   margin-font-size: inherit;
 }
 
-/* End .form-item */
 .webform-client-form {
   margin: 1em 0 0 0;
 }
@@ -456,7 +414,6 @@ div#block-views-upcoming-session-block {
   /* Begin #branding */
   margin: 0 0 0 0;
   /* End #block-administration-menu-block */
-  /* End .section within #branding */
   /* End #block-search within #branding */
 }
 #branding #block-administration-menu-block {
