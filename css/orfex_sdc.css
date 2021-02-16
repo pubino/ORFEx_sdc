@@ -579,25 +579,22 @@ div#block-views-upcoming-session-block {
   max-width: 1280px;
   margin: auto;
 }
-#main-wrapper #main #content h1, #main-wrapper #main #content h1#pagetitle {
-  margin: 0.5em 0 0.5em 0;
-  text-align: center;
-  font-size: 2.75em;
-  font-weight: normal;
-  font-family: "Oswald", sans-serif;
-}
-#main-wrapper #main #content h2 {
-  margin: 0.5em 0 0.5em 0;
-  font-size: 2.35em;
+#main-wrapper #main #content h1, #main-wrapper #main #content h2, #main-wrapper #main #content h3 {
+  margin: 0.25em 0 0.25em 0;
   text-align: center;
   border-bottom: none;
   font-family: "Oswald", sans-serif;
 }
+#main-wrapper #main #content h1, #main-wrapper #main #content h1#pagetitle {
+  font-size: 2.75em;
+  font-weight: normal;
+}
+#main-wrapper #main #content h2 {
+  font-size: 2.35em;
+}
 #main-wrapper #main #content h3 {
   font-size: 2.25em;
-  margin-bottom: 0;
   font-weight: bold;
-  font-family: "Oswald", sans-serif;
 }
 #main-wrapper #main #content h3.session-subtitle {
   font-size: 1.15em;
