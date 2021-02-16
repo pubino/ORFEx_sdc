@@ -577,7 +577,6 @@ font-size: 1.25em;
 
 }
 
-
 }
 
 #headerwell {
@@ -681,7 +680,6 @@ margin: auto;
 
 h1, h2, h3 {
 margin: 0.25em 0 0.25em 0;
-text-align: center;
 border-bottom: none;
 font-family: $orfe_conference_header_font;
 }
@@ -689,10 +687,12 @@ font-family: $orfe_conference_header_font;
 h1, h1#pagetitle {
 font-size: 2.75em;
 font-weight: normal;
+text-align: center;
 }
 
 h2 {
 font-size: 2.35em;
+text-align: center;
 }
 
 h3 {
