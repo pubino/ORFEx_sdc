@@ -759,6 +759,9 @@ background: black;
 display: flex;
 justify-content: center;
 }
+@media screen and (max-width: 960px) {
+flex-flow: column;
+}
 }
 
 .page-admin-config .admin {

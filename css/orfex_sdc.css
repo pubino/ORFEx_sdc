@@ -647,6 +647,11 @@ div#block-views-upcoming-session-block {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 960px) {
+  .action-button-block {
+    flex-flow: column;
+  }
+}
 
 .page-admin-config .admin {
   background-color: white;
