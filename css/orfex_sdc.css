@@ -15,9 +15,6 @@
 body {
   background: black;
   font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  line-height: 1.6;
-  background: black;
   color: whitesmoke;
 }
 
@@ -27,7 +24,6 @@ h1 {
 }
 
 ul {
-  /* Begin ul */
   color: inherit;
 }
 ul li.leaf {
@@ -39,7 +35,6 @@ ul li.expanded {
   list-style-image: none;
 }
 
-/* End ul */
 p, table {
   margin: 0;
 }
