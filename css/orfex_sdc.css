@@ -18,22 +18,12 @@ body {
   color: whitesmoke;
 }
 
-h1 {
-  color: #ffb5ff;
+h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
 }
 
-p, table {
-  margin: 0;
-}
-
-table {
-  table-layout: fixed;
-}
-
-caption {
-  margin: 1em 0 0.5em 0;
-  font-weight: bold;
+h1 {
+  color: #ffb5ff;
 }
 
 tr, tr.odd {
@@ -58,23 +48,6 @@ tr td, tr th {
 
 td {
   white-space: normal;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-family: "Oswald", sans-serif;
-}
-
-p + h2, ul + p, p + h3 {
-  margin-top: 1em;
-}
-
-input, textarea, select, a {
-  font-family: inherit;
-}
-
-label {
-  margin-bottom: 0.25em;
 }
 
 fieldset legend {

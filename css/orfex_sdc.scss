@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
+$link_color: #06a5ff;
 $orfe_conference_font: "Open Sans", sans-serif;
 $breakpoint: 850px;
 $orfe_conference_sitewidth: 1280px;
@@ -32,22 +33,12 @@ font-family: $orfe_conference_font;
 color: whitesmoke;
 }
 
-h1 {
-color: $header_color;
+h1, h2, h3, h4, h5, h6 {
 font-family: $orfe_conference_header_font;
 }
 
-p, table {
-margin: 0;
-}
-
-table {
-table-layout: fixed;
-}
-
-caption {
-margin: 1em 0 0.5em 0;
-font-weight: bold;
+h1 {
+color: $header_color;
 }
 
 tr, tr.odd {
@@ -74,22 +65,6 @@ td {
 white-space: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-margin: 0;
-font-family: $orfe_conference_header_font;
-}
-
-p + h2, ul + p, p + h3 {
-margin-top: 1em;
-}
-
-input, textarea, select, a {
-font-family: inherit;
-}
-
-label {
-margin-bottom: 0.25em;
-}
 
 fieldset legend {
 font-family: inherit;
@@ -104,8 +79,7 @@ font-size: 1em;
 }
 
 a {
-// color: #004d79;
-color: #06a5ff;
+color: $link_color;
 }
 
 ul + h2, ul + h3, h2 + h3, h3 + p, div + h3 {
