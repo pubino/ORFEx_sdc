@@ -313,6 +313,10 @@ clear: both;
 }
 }
 
+[class$="-name-and-title"] {
+	text-align: left;
+}
+
 .views-field-field-last-name-1, .views-field-field-last-name-2 {
 padding: 1em;
 h3 {
