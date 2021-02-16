@@ -628,6 +628,11 @@ div#block-views-upcoming-session-block {
   font-size: 1.25em;
 }
 
+@media screen and (max-width: 860px) {
+  #header {
+    background-image: none;
+  }
+}
 @media screen and (min-width: 960px) {
   #footer {
     width: 100%;
