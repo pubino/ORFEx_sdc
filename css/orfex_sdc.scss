@@ -350,27 +350,6 @@ color: black;
 white-space: nowrap;
 }
 
-.capitalize {
-text-transform: capitalize;
-}
-
-.breadcrumb {
-display: none;
-}
-
-.featured #messages {
-background: black;
-}
-
-.section, .region, .block .content {
-padding: 0;
-margin-top: 0;
-}
-
-.container-inline-date > .form-item {
-margin-right: 0;
-}
-
 ul.menu li {
 margin: 0;
 }
@@ -770,18 +749,9 @@ text-align:center;
 #footer-wrapper { 
 margin: auto;
 background: black; 
-padding-top: 0;
-/* color: #fcfcfc; */
-font-family: inherit;
-font-size: inherit;
-
-} /* End #footer-columns */
+}
 
 .page-admin-config .admin {
 background-color:white;
 color:black;
-}
-
-body.node-type-sdc-speaker h1.title, body.node-type-about-page h1.title, body.page-schedule h1{
-color: $header_color;
 }
