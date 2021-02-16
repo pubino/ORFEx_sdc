@@ -679,27 +679,25 @@ margin: auto;
 #main {
 #content {
 
-h1, h1#pagetitle {
-margin: 0.5em 0 0.5em 0;
-text-align:center;
-font-size: 2.75em;
-font-weight: normal;
+h1, h2, h3 {
+margin: 0.25em 0 0.25em 0;
+text-align: center;
+border-bottom: none;
 font-family: $orfe_conference_header_font;
 }
 
+h1, h1#pagetitle {
+font-size: 2.75em;
+font-weight: normal;
+}
+
 h2 {
-margin: 0.5em 0 0.5em 0;
 font-size: 2.35em;
-text-align:center;
-border-bottom: none;
-font-family: "Oswald", sans-serif;
 }
 
 h3 {
 font-size: 2.25em;
-margin-bottom: 0;
 font-weight: bold;
-font-family: 'Oswald', sans-serif;
 }
 
 h3.session-subtitle {
