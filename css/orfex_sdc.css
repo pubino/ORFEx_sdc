@@ -431,12 +431,6 @@ ul + h2, ul + h3, h2 + h3, h3 + p, div + h3 {
   margin-right: 0;
 }
 
-.meta.submitted, .views-field-created, .views-field-field-advertised-positions {
-  color: gray;
-  font-style: italic;
-  margin-bottom: 1em;
-}
-
 ul.menu li {
   margin: 0;
 }
@@ -453,15 +447,6 @@ ul.menu li {
 }
 .menu ul li > ul li {
   margin: 0;
-}
-
-.sidebar .block {
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-.sidebar .block .content {
-  font-size: 1em;
 }
 
 .field-name-body ul, .field-name-body ol {
@@ -487,43 +472,6 @@ ul.menu li {
 }
 
 /* End .form-item */
-.view-advisory-council .views-row {
-  margin: 2em 0 1em 0;
-}
-
-.placeholder_photo {
-  max-width: 150px;
-}
-
-.advisory-council-member-photo {
-  padding: 1em 1em 0 0;
-  float: left;
-}
-
-.advisory-council-member-name {
-  font-size: 1.25em;
-}
-
-.advisory-council-member-title {
-  color: #68696b;
-  font-size: 1em;
-  font-style: italic;
-  margin-bottom: 1em;
-}
-
-.field-name-field-speaker {
-  font-size: 1.8em;
-}
-
-.field-name-field-institution {
-  font-size: 1em;
-  margin-bottom: 1em;
-}
-
-.views-row {
-  margin: 1em 0 1em 0;
-}
-
 .webform-client-form {
   margin: 1em 0 0 0;
 }
@@ -970,137 +918,6 @@ div#block-views-upcoming-session-block {
 }
 
 /* End #main-wrapper */
-#diptych-wrapper {
-  margin: auto;
-  max-width: 1280px;
-}
-#diptych-wrapper a, #diptych-wrapper a:active, #diptych-wrapper a:hover {
-  color: white;
-  font-size: 2em;
-}
-#diptych-wrapper .block ul {
-  padding: 0;
-}
-#diptych-wrapper #diptych {
-  padding: 1em 0 1em 0;
-}
-#diptych-wrapper #diptych .region-diptych-first, #diptych-wrapper #diptych .region-diptych-second, #diptych-wrapper #diptych .region-diptych-third, #diptych-wrapper #diptych .region-diptych-fourth {
-  float: left;
-  width: 47%;
-  text-shadow: 1px 1px gray;
-  font-weight: bold;
-}
-@media screen and (max-width: 960px) {
-  #diptych-wrapper #diptych .region-diptych-first, #diptych-wrapper #diptych .region-diptych-second, #diptych-wrapper #diptych .region-diptych-third, #diptych-wrapper #diptych .region-diptych-fourth {
-    float: none;
-    width: unset;
-  }
-}
-#diptych-wrapper #diptych .region-diptych-first .block, #diptych-wrapper #diptych .region-diptych-first .menu, #diptych-wrapper #diptych .region-diptych-first .content, #diptych-wrapper #diptych .region-diptych-second .block, #diptych-wrapper #diptych .region-diptych-second .menu, #diptych-wrapper #diptych .region-diptych-second .content, #diptych-wrapper #diptych .region-diptych-third .block, #diptych-wrapper #diptych .region-diptych-third .menu, #diptych-wrapper #diptych .region-diptych-third .content, #diptych-wrapper #diptych .region-diptych-fourth .block, #diptych-wrapper #diptych .region-diptych-fourth .menu, #diptych-wrapper #diptych .region-diptych-fourth .content {
-  text-align: center;
-}
-#diptych-wrapper #diptych .region-diptych-first .block .item-list ul li, #diptych-wrapper #diptych .region-diptych-first .menu .item-list ul li, #diptych-wrapper #diptych .region-diptych-first .content .item-list ul li, #diptych-wrapper #diptych .region-diptych-second .block .item-list ul li, #diptych-wrapper #diptych .region-diptych-second .menu .item-list ul li, #diptych-wrapper #diptych .region-diptych-second .content .item-list ul li, #diptych-wrapper #diptych .region-diptych-third .block .item-list ul li, #diptych-wrapper #diptych .region-diptych-third .menu .item-list ul li, #diptych-wrapper #diptych .region-diptych-third .content .item-list ul li, #diptych-wrapper #diptych .region-diptych-fourth .block .item-list ul li, #diptych-wrapper #diptych .region-diptych-fourth .menu .item-list ul li, #diptych-wrapper #diptych .region-diptych-fourth .content .item-list ul li {
-  list-style-type: none;
-}
-#diptych-wrapper #diptych .region-diptych-first .block, #diptych-wrapper #diptych .region-diptych-second .block, #diptych-wrapper #diptych .region-diptych-third .block, #diptych-wrapper #diptych .region-diptych-fourth .block {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-#diptych-wrapper #diptych .region-diptych-first {
-  position: relative;
-  background-color: #f41885;
-  border-radius: 25px;
-  min-height: 150px;
-  margin: 0 1em 0 1em;
-}
-@media screen and (max-width: 960px) {
-  #diptych-wrapper #diptych .region-diptych-first {
-    margin-bottom: 1.75em;
-  }
-}
-#diptych-wrapper #diptych .region-diptych-second {
-  position: relative;
-  background-color: #6D85C4;
-  border-radius: 25px;
-  min-height: 150px;
-  margin: 0 1em 0 1em;
-}
-#diptych-wrapper #diptych .region-diptych-third {
-  position: relative;
-  background-color: #7B2CD9;
-  border-radius: 25px;
-  min-height: 150px;
-  margin: 0 1em 0 1em;
-}
-@media screen and (max-width: 960px) {
-  #diptych-wrapper #diptych .region-diptych-third {
-    margin-bottom: 1.75em;
-  }
-}
-#diptych-wrapper #diptych .region-diptych-fourth {
-  position: relative;
-  background-color: #BCAEE2;
-  border-radius: 25px;
-  min-height: 150px;
-  margin: 0 1em 0 1em;
-}
-#diptych-wrapper #block-views-main-speakers-panelists-block {
-  padding-bottom: 12px;
-}
-
-#triptych-wrapper {
-  /* Begin #triptych-wrapper */
-  max-width: 1280px;
-  margin: auto;
-  background-color: black;
-  background: black;
-  border-top: none;
-  /* End #triptych within #triptych-wrapper */
-}
-#triptych-wrapper #triptych {
-  /* Begin #triptych within #triptych-wrapper */
-  /* background: rgba(0, 0, 0, 0.04); */
-  /* background-color: #f0f0f0; */
-  background-color: black;
-  padding: 1em 0 1em 0;
-  /* End #block-programs-menu-block within #triptych, #triptych-wrapper */
-  /* End #block-researchareas-menu-block within #triptych, #triptych-wrapper */
-  /* End #block-upcoming-conferences */
-  /* End #block-researchareas-menu-block within #triptych, #triptych-wrapper */
-}
-#triptych-wrapper #triptych .block, #triptych-wrapper #triptych .menu, #triptych-wrapper #triptych .content {
-  text-align: center;
-  line-height: 1.5em;
-  border-bottom: none;
-}
-#triptych-wrapper #triptych h2 {
-  color: inherit;
-  margin-bottom: inherit;
-  text-shadow: none;
-  text-align: inherit;
-  line-height: inherit;
-}
-#triptych-wrapper #triptych #block-programs-menu-block {
-  /* Begin #block-programs-menu-block within #triptych, #triptych-wrapper */
-}
-#triptych-wrapper #triptych #block-upcoming-events {
-  /* Begin #block-upcoming-events within #triptych, #triptych-wrapper */
-}
-#triptych-wrapper #triptych #block-upcoming-conferences {
-  /* Begin #lock-upcoming-conferences */
-}
-#triptych-wrapper #triptych #block-upcoming-conferences li {
-  margin: 1em 0 1em 0;
-}
-#triptych-wrapper #triptych #block-researchareas-menu-block {
-  /* Begin #block-researchareas-menu-block within #triptych, #triptych-wrapper */
-}
-
-/* End #triptych-wrapper */
 @media screen and (min-width: 960px) {
   #footer {
     width: 100%;
