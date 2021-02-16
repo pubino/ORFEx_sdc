@@ -5,7 +5,6 @@
 
 #main-wrapper {
   background: black;
-  min-height: 500px;
   background-image: url("https://orfe.princeton.edu/sites/orfe.princeton.edu.conferences.sdc/themes/ORFEx_sdc/images/background-pink-wedge-left-03.png");
   background-position: top center;
   background-repeat: no-repeat;
@@ -34,10 +33,6 @@ tr.even {
   background: lightgray;
 }
 
-p + p {
-  margin-top: 1em;
-}
-
 tr {
   background: white;
 }
@@ -57,17 +52,8 @@ fieldset legend {
   font-weight: bold;
 }
 
-table {
-  font-family: inherit;
-  font-size: 1em;
-}
-
 a {
   color: #06a5ff;
-}
-
-ul + h2, ul + h3, h2 + h3, h3 + p, div + h3 {
-  margin-top: 1em;
 }
 
 #views-preview-wrapper {
@@ -548,16 +534,12 @@ div#block-views-upcoming-session-block {
 
 /* End #branding */
 #header {
-  /* Begin #header */
   padding: 0 0 2em 0;
   background-image: none;
   max-width: 1280px;
   min-height: auto;
   margin: auto;
   background-color: black;
-  /* margin-bottom: 0.75em; */
-  /* margin-bottom: 0; */
-  /* padding: 0 1em 0 1em; */
   /* End #logo within #header */
 }
 #header div.section {
@@ -602,11 +584,9 @@ div#block-views-upcoming-session-block {
 #headerwell {
   /* Begin #headerwell */
   background-color: black;
-  /* End #block-administration-menu-block */
   /* End #block-main-menu-block within #headerwell */
 }
 #headerwell #block-administration-menu-block {
-  /* begin #block-administration-menu-block */
   width: 100%;
 }
 #headerwell #block-administration-menu-block ul li a {
@@ -671,103 +651,6 @@ div#block-views-upcoming-session-block {
   padding: 0 1em 0 1em;
 }
 /* End #headerwell */
-#messages {
-  /* Begin #messages */
-  padding: 0;
-}
-#messages div.messages {
-  margin: 1em;
-}
-
-/* End messages */
-#featured {
-  /* Begin #featured */
-  text-align: inherit;
-  padding: 0;
-  background: none;
-  border-bottom: none;
-  text-shadow: none;
-  font-size: 1em;
-  /* End #block-spotlight */
-}
-#featured div.section {
-  /* Begin div.section within #featured */
-  max-width: initial;
-  width: initial;
-  margin: initial;
-}
-#featured #block-spotlight {
-  /* Begin #block-spotlight */
-  /* End width query for Spotlight pager */
-}
-#featured #block-spotlight .flexslider {
-  margin: 0;
-  border: none;
-}
-#featured #block-spotlight ol, #featured #block-spotlight ul {
-  padding: 0;
-}
-@media screen and (min-width: 768px) {
-  #featured #block-spotlight {
-    /* Begin width query for Spotlight pager */
-  }
-  #featured #block-spotlight .flex-control-paging li a {
-    background-image: url(/sites/all/themes/ORFEx/images/pager-square.png);
-    width: 28px;
-    height: 23px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-  }
-  #featured #block-spotlight .flex-control-paging li a.flex-active {
-    background-image: url(/sites/all/themes/ORFEx/images/pager-square-active.png);
-    width: 28px;
-    height: 23px;
-  }
-  #featured #block-spotlight .flex-control-nav li {
-    margin: 0 1em 1em 0;
-  }
-  #featured #block-spotlight .flex-control-nav.flex-control-paging {
-    margin: 0 0 0 1em;
-  }
-}
-#featured #block-spotlight .flex-control-nav.flex-control-paging {
-  position: initial;
-  margin: 1em 0 0 1em;
-}
-#featured #block-spotlight .flex-direction-nav a {
-  min-height: 45px;
-}
-#featured #block-spotlight .views-field-body {
-  padding: 0;
-  margin-top: 1em;
-}
-#featured #block-spotlight .view-header {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
-  z-index: 200;
-  font-size: 1.2em;
-  padding: 0.5em;
-}
-#featured #block-spotlight .views-field-title {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
-  z-index: 200;
-  font-size: 1.2em;
-  padding: 0.5em;
-  width: 100%;
-}
-@media screen and (max-width: 640px) {
-  #featured #block-spotlight .views-field-title {
-    background-color: black;
-    padding: 0;
-    font-size: 1.1em;
-    white-space: nowrap;
-    text-overflow: elipsis;
-  }
-}
-
-/* End #featured */
 #main-wrapper {
   /* Begin #main-wrapper */
   max-width: 1280px;
@@ -883,8 +766,6 @@ div#block-views-upcoming-session-block {
   }
 }
 #footer-wrapper {
-  /* Begin #footer-wrapper */
-  /* max-width: $orfe_conference_sitewidth; */
   margin: auto;
   background: black;
   padding-top: 0;
@@ -979,7 +860,6 @@ div#block-views-upcoming-session-block {
   }
 }
 
-/* End #footer-wrapper */
 .page-admin-config .admin {
   background-color: white;
   color: black;
@@ -988,25 +868,5 @@ div#block-views-upcoming-session-block {
 body.node-type-sdc-speaker h1.title, body.node-type-about-page h1.title, body.page-schedule h1 {
   color: #ffb5ff;
 }
-
-body.node-type-about-page .views-field-field-photo, body.page-schedule .views-field-field-photo {
-  float: left;
-  padding: 1em;
-}
-body.node-type-about-page .views-field-field-speaking-date, body.page-schedule .views-field-field-speaking-date {
-  font-size: 1.5em;
-}
-
-body.node-type-speaker {
-  /* Begin body.node-type-speaker */
-}
-body.node-type-speaker #page-title {
-  display: none;
-}
-body.node-type-speaker ul {
-  list-style-type: none;
-}
-
-/* End body.node-type-speaker */
 
 /*# sourceMappingURL=orfex_sdc.css.map */
