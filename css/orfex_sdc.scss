@@ -315,6 +315,9 @@ clear: both;
 
 [class$="-name-and-title"] {
 	text-align: left;
+	@media screen and (max-width: 960px) {
+		text-align:center;
+	}
 }
 
 .views-field-field-last-name-1, .views-field-field-last-name-2 {
@@ -322,18 +325,11 @@ padding: 1em;
 h3 {
 border-bottom: 1px solid white;
 }
-@media screen and (max-width: 960px) {
-text-align:center;
-}
 }
 
 .views-field-views-conditional-1 {
 h3 {
 border-bottom: 1px solid white;
-}
-
-@media screen and (max-width: 960px) {
-text-align:center;
 }
 }
 
