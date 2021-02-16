@@ -754,6 +754,13 @@ margin: auto;
 background: black; 
 }
 
+.action-button-block {
+.content {
+display: flex;
+justify-content: center;
+}
+}
+
 .page-admin-config .admin {
 background-color:white;
 color:black;
