@@ -23,18 +23,6 @@ h1 {
   font-family: "Oswald", sans-serif;
 }
 
-ul {
-  color: inherit;
-}
-ul li.leaf {
-  list-style-type: none;
-  list-style-image: none;
-}
-ul li.expanded {
-  list-style-type: none;
-  list-style-image: none;
-}
-
 p, table {
   margin: 0;
 }
