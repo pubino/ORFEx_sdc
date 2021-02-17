@@ -392,6 +392,9 @@ div#block-views-upcoming-session-block {
   /* End #block-administration-menu-block */
   /* End #block-search within #branding */
 }
+#branding .region-branding {
+  justify-content: center;
+}
 #branding #block-administration-menu-block {
   /* begin #block-administration-menu-block */
   width: 100%;
