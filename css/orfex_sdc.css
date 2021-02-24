@@ -586,4 +586,33 @@ div#block-views-upcoming-session-block {
   color: black;
 }
 
+.main-menu {
+  clear: both;
+  width: 100%;
+  background-color: lightgray;
+  background-image: linear-gradient(to right, #5A23A8, #A02E60);
+}
+.main-menu a {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-menu a.active {
+  color: white;
+}
+.main-menu ul li {
+  display: inline;
+  vertical-align: middle;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0.75em 0 0.75em 0;
+  text-align: center;
+}
+.main-menu ul > li {
+  margin: 0;
+  padding: 0 1em 0 1em;
+}
+
 /*# sourceMappingURL=orfex_sdc.css.map */
