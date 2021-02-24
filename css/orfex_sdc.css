@@ -1,4 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
+.headshot {
+  float: left;
+  padding: 1em;
+}
+@media (max-width: 62em) {
+  .headshot {
+    float: none;
+    text-align: center;
+  }
+}
+
 #page {
   background: black;
 }
@@ -245,30 +256,6 @@ a {
   margin: 0;
 }
 
-.view-session-node-override .views-field-field-photo, .view-session-node-override .views-field-field-photo-1 {
-  padding: 1em;
-  font-size: 2.25em;
-  float: left;
-}
-@media screen and (max-width: 960px) {
-  .view-session-node-override .views-field-field-photo, .view-session-node-override .views-field-field-photo-1 {
-    float: none;
-    text-align: center;
-  }
-}
-
-.featured-panelist-profile .views-field-views-conditional {
-  min-width: 300px;
-  padding: 2em;
-  float: left;
-}
-@media screen and (max-width: 960px) {
-  .featured-panelist-profile .views-field-views-conditional {
-    float: none;
-    text-align: center;
-  }
-}
-
 @media screen and (max-width: 960px) {
   .views-field-views-conditional-2 {
     text-align: center;
@@ -389,8 +376,6 @@ div#block-views-upcoming-session-block {
 #branding {
   margin: 0 0 0 0;
   background: black;
-  /* End #block-administration-menu-block */
-  /* End #block-search within #branding */
 }
 #branding .region-branding {
   justify-content: center;
@@ -445,28 +430,6 @@ div#block-views-upcoming-session-block {
     float: none;
   }
 }
-#branding #block-search {
-  /* Begin #block-search within #branding */
-  float: right;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0.5em;
-}
-#branding #block-search input.form-text {
-  width: 300px;
-}
-@media screen and (max-width: 640px) {
-  #branding #block-search {
-    float: none;
-    width: 100%;
-  }
-  #branding #block-search input.form-text {
-    width: 82%;
-  }
-  #branding #block-search .container-inline .form-actions {
-    margin-left: 0.5em;
-  }
-}
 
 #header {
   background-color: black;
@@ -513,7 +476,6 @@ div#block-views-upcoming-session-block {
 
 #headerwell {
   background-color: black;
-  /* End #block-main-menu-block within #headerwell */
 }
 #headerwell #block-administration-menu-block {
   width: 100%;
@@ -539,46 +501,7 @@ div#block-views-upcoming-session-block {
   margin: 0;
   padding: 0;
 }
-#headerwell #block-graduate-menu-block, #headerwell #block-undergraduate-menu-block, #headerwell #block-research-menu-block, #headerwell #block-people-menu-block {
-  background-color: #818285;
-}
-#headerwell #block-main-menu-expansion-block, #headerwell #block-main-menu-block, #headerwell .graduate.menu, #headerwell .undergraduate.menu, #headerwell .research.menu, #headerwell .people.menu {
-  /* Begin #block-main-menu-block within #headerwell */
-  clear: both;
-  width: 100%;
-  /* background-color: #525355; */
-  /* background-color: #fefefe; */
-  background-color: lightgray;
-  background-image: linear-gradient(to right, #5A23A8, #A02E60);
-  /* padding: 1.5rem 0 1.5rem 0; */
-}
-#headerwell #block-main-menu-expansion-block a, #headerwell #block-main-menu-block a, #headerwell .graduate.menu a, #headerwell .undergraduate.menu a, #headerwell .research.menu a, #headerwell .people.menu a {
-  /* color: #ffffff; */
-  /* color: #004d79; */
-  color: white;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-decoration: none;
-}
-#headerwell #block-main-menu-expansion-block a.active, #headerwell #block-main-menu-block a.active, #headerwell .graduate.menu a.active, #headerwell .undergraduate.menu a.active, #headerwell .research.menu a.active, #headerwell .people.menu a.active {
-  /* color: rgb(201, 201, 201); */
-  /* color: #5c79d7; */
-  /* color: rgba(249,165,29,1); */
-  color: white;
-}
-#headerwell #block-main-menu-expansion-block ul li, #headerwell #block-main-menu-block ul li, #headerwell .graduate.menu ul li, #headerwell .undergraduate.menu ul li, #headerwell .research.menu ul li, #headerwell .people.menu ul li {
-  display: inline;
-  vertical-align: middle;
-}
-#headerwell #block-main-menu-expansion-block ul, #headerwell #block-main-menu-block ul, #headerwell .graduate.menu ul, #headerwell .undergraduate.menu ul, #headerwell .research.menu ul, #headerwell .people.menu ul {
-  margin: 0;
-  padding: 0.75em 0 0.75em 0;
-  text-align: center;
-}
-#headerwell #block-main-menu-expansion-block ul > li, #headerwell #block-main-menu-block ul > li, #headerwell .graduate.menu ul > li, #headerwell .undergraduate.menu ul > li, #headerwell .research.menu ul > li, #headerwell .people.menu ul > li {
-  margin: 0;
-  padding: 0 1em 0 1em;
-}
+
 #main-wrapper {
   max-width: 1280px;
   margin: auto;

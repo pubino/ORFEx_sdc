@@ -14,6 +14,15 @@ $apr_bgcolor: rgba(96, 112, 122, 0.77);
 $pu_orange: #E5863E;
 $site_bg_color: black;
 
+.headshot {
+	float: left;
+	padding: 1em;
+	@media (max-width: 62em){
+		float: none;
+		text-align: center;
+	}
+}
+
 #page {
 background: $site_bg_color;
 }
@@ -225,7 +234,6 @@ align-content: center;
 justify-content: center;
 }
 
-
 .view-sdc-sessions, .view-sdc-sessions-list {
 padding: 0 0 0 0;
 text-align: center;
@@ -274,30 +282,6 @@ list-style-type:none;
 text-align:center;
 padding:0;
 margin:0;
-}
-}
-
-.view-session-node-override {
-.views-field-field-photo, .views-field-field-photo-1 {
-padding: 1em;
-font-size:2.25em;
-float: left;
-@media screen and (max-width: 960px) {
-float: none;
-text-align:center;
-}
-}
-}
-
-.featured-panelist-profile {
-.views-field-views-conditional {
-min-width: 300px;
-padding: 2em;
-float: left;
-@media screen and (max-width: 960px) {
-float: none;
-text-align:center;
-}
 }
 }
 
@@ -472,7 +456,7 @@ ul>li {
 
 
 
-} /* End #block-administration-menu-block */
+}
 
 p>a {
 background: url("../images/princeton-university-logo-alt.png") no-repeat 50% 50%;
@@ -504,34 +488,6 @@ float: left;
 float: none;
 }
 }
-
-#block-search { /* Begin #block-search within #branding */
-
-float: right;
-margin-bottom: 0;
-padding-bottom: 0;
-padding-top: 0.5em;
-
-input.form-text {
-width: 300px;
-}
-
-
-@media screen and (max-width: 640px) {
-float: none;
-width:100%;
-
-input.form-text {
-width: 82%;
-}
-
-.container-inline .form-actions {
-margin-left: 0.5em;
-}
-
-}
-
-} /* End #block-search within #branding */
 
 }
 
@@ -619,61 +575,6 @@ ul>li {
         padding:0;
 }
 
-}
-
-
-#block-graduate-menu-block, #block-undergraduate-menu-block, #block-research-menu-block, #block-people-menu-block {
-background-color: #818285;
-}
-
-#block-main-menu-expansion-block, #block-main-menu-block, .graduate.menu, .undergraduate.menu, .research.menu, .people.menu { /* Begin #block-main-menu-block within #headerwell */
-clear:both;
-width: 100%;
-/* background-color: #525355; */
-/* background-color: #fefefe; */
-background-color: lightgray;
-background-image: linear-gradient(to right, #5A23A8, #A02E60);;
-/* padding: 1.5rem 0 1.5rem 0; */
-
-a {
-/* color: #ffffff; */
-/* color: #004d79; */
-color: white;
-font-size: 1.5em;
-font-weight: bold;
-text-decoration: none;
-}
-
-a.active {
-/* color: rgb(201, 201, 201); */
-/* color: #5c79d7; */
-/* color: rgba(249,165,29,1); */
-color: white;
-}
-
-a.visited {
-}
-
-ul li {
-display: inline;
-vertical-align: middle;
-}
-
-ul {
-margin: 0;
-padding: 0.75em 0 0.75em 0;
-text-align: center;
-}
-
-ul>li {
-margin:0;
-padding:0 1em 0 1em;
-}
-
-} /* End #block-main-menu-block within #headerwell */
-
-
-#block-system-help {
 }
 
 }
