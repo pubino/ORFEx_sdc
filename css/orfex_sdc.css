@@ -622,5 +622,8 @@ div#block-views-upcoming-session-block {
 .summary-view .view-content > h3 {
   display: none;
 }
+.summary-view .views-field-field-professional-title {
+  color: gray;
+}
 
 /*# sourceMappingURL=orfex_sdc.css.map */
