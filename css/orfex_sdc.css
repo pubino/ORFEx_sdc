@@ -616,6 +616,11 @@ div#block-views-upcoming-session-block {
   padding: 0 1em 0 1em;
 }
 
+.view-display-id-session_summary_view {
+  display: flex;
+  justify-content: center;
+}
+
 .summary-view img {
   border-radius: 50%;
   max-width: 75%;
