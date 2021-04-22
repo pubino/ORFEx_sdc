@@ -663,4 +663,12 @@ div#block-views-upcoming-session-block {
   flex-flow: column;
 }
 
+#webform-client-form-341 {
+  font-size: 1.4em;
+}
+
+.form-item .description {
+  font-size: 1em;
+}
+
 /*# sourceMappingURL=orfex_sdc.css.map */
