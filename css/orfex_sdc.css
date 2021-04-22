@@ -635,8 +635,5 @@ div#block-views-upcoming-session-block {
   display: flex;
   flex-flow: column;
 }
-.summary-view .featured-panelist-profile > * {
-  text-align: center;
-}
 
 /*# sourceMappingURL=orfex_sdc.css.map */
