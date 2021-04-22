@@ -652,7 +652,7 @@ div#block-views-upcoming-session-block {
   flex-wrap: wrap;
 }
 .summary-view .view-embedded-panelist-view-field > .view-content img {
-  max-width: 35%;
+  max-width: 200px;
 }
 .summary-view .view-embedded-panelist-view-field > .view-content .headshot {
   float: none;
