@@ -618,6 +618,7 @@ div#block-views-upcoming-session-block {
 
 .summary-view img {
   border-radius: 50%;
+  max-width: 75%;
 }
 .summary-view .view-content > h3 {
   display: none;
