@@ -626,5 +626,8 @@ div#block-views-upcoming-session-block {
 .summary-view .views-field-field-professional-title {
   color: gray;
 }
+.summary-view .featured-panelist-profile {
+  display: flex;
+}
 
 /*# sourceMappingURL=orfex_sdc.css.map */
