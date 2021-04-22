@@ -739,8 +739,8 @@ display: flex;
 flex-flow: column;
 }
 
-#main-wrapper #main #content h2.moderator-label {
-text-align: left;
+h2.moderator-label {
+text-align: left !important;
 }
 
 
