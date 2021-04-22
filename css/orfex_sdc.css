@@ -650,6 +650,9 @@ div#block-views-upcoming-session-block {
   display: flex;
   flex-wrap: wrap;
 }
+.summary-view .view-embedded-panelist-view-field > .view-content img {
+  max-width: 50%;
+}
 .summary-view .view-embedded-panelist-view-field > .view-content .headshot {
   float: none;
 }
