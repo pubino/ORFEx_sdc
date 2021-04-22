@@ -631,7 +631,7 @@ div#block-views-upcoming-session-block {
 .summary-view .views-field-field-last-name {
   text-align: center;
 }
-.summary-view .views-field-field-professional-title {
+.summary-view .professional-title {
   color: gray;
 }
 .summary-view h2.moderator-label {
@@ -644,7 +644,7 @@ div#block-views-upcoming-session-block {
   text-align: center;
 }
 .summary-view .panelist-name {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .summary-view .view-embedded-panelist-view-field > .view-content {
   display: flex;
