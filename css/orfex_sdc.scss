@@ -736,6 +736,10 @@ color:gray;
 
 .featured-panelist-profile {
 display: flex;
+flex-flow: column;
+>* {
+text-align:center;
+}
 }
 
 }

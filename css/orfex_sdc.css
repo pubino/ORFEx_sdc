@@ -633,6 +633,10 @@ div#block-views-upcoming-session-block {
 }
 .summary-view .featured-panelist-profile {
   display: flex;
+  flex-flow: column;
+}
+.summary-view .featured-panelist-profile > * {
+  text-align: center;
 }
 
 /*# sourceMappingURL=orfex_sdc.css.map */
