@@ -619,5 +619,8 @@ div#block-views-upcoming-session-block {
 .summary-view img {
   border-radius: 50%;
 }
+.summary-view .view-content > h3 {
+  display: none;
+}
 
 /*# sourceMappingURL=orfex_sdc.css.map */
