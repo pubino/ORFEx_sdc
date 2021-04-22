@@ -631,15 +631,14 @@ div#block-views-upcoming-session-block {
 .summary-view .views-field-field-professional-title {
   color: gray;
 }
-.summary-view .featured-panelist-profile {
-  display: flex;
-  flex-flow: column;
-}
 .summary-view h2.moderator-label {
   text-align: left !important;
 }
 .summary-view h2 {
   color: #EA6D2D;
+}
+.summary-view .headshot {
+  text-align: center;
 }
 
 /*# sourceMappingURL=orfex_sdc.css.map */

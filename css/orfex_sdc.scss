@@ -735,8 +735,6 @@ color:gray;
 }
 
 .featured-panelist-profile {
-display: flex;
-flex-flow: column;
 }
 
 h2.moderator-label {
@@ -746,6 +744,10 @@ text-align: left !important;
 
 h2 {
 color: #EA6D2D;
+}
+
+.headshot,  {
+text-align:center;
 }
 
 }
