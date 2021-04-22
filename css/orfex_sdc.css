@@ -616,4 +616,8 @@ div#block-views-upcoming-session-block {
   padding: 0 1em 0 1em;
 }
 
+.summary-view img {
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=orfex_sdc.css.map */
