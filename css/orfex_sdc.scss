@@ -764,6 +764,8 @@ font-size: 1.5em;
 	
 	.featured-panelist-profile {
 	flex: 50%;
+	display: flex;
+	flex-flow: column;
 	}
 }
 

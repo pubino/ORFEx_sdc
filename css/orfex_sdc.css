@@ -652,6 +652,8 @@ div#block-views-upcoming-session-block {
 }
 .summary-view .view-embedded-panelist-view-field > .view-content .featured-panelist-profile {
   flex: 50%;
+  display: flex;
+  flex-flow: column;
 }
 
 /*# sourceMappingURL=orfex_sdc.css.map */
