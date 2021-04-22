@@ -635,5 +635,8 @@ div#block-views-upcoming-session-block {
   display: flex;
   flex-flow: column;
 }
+.summary-view h2 {
+  color: orange;
+}
 
 /*# sourceMappingURL=orfex_sdc.css.map */
