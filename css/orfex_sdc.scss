@@ -762,6 +762,10 @@ font-size: 1.5em;
 	display: flex;
 	flex-wrap: wrap;
 	
+	.headshot {
+		float: none;
+	}
+	
 	.featured-panelist-profile {
 	flex: 50%;
 	display: flex;
