@@ -643,6 +643,9 @@ div#block-views-upcoming-session-block {
 .summary-view .headshot {
   text-align: center;
 }
+.summary-view .panelist-name {
+  font-size: 2em;
+}
 .summary-view .view-embedded-panelist-view-field > .view-content {
   display: flex;
   flex-wrap: wrap;
