@@ -640,11 +640,11 @@ div#block-views-upcoming-session-block {
 .summary-view .headshot {
   text-align: center;
 }
-.summary-view .view-embedded-panelist-view-field > view-content {
+.summary-view .view-embedded-panelist-view-field > .view-content {
   display: flex;
   flex-wrap: wrap;
 }
-.summary-view .view-embedded-panelist-view-field > view-content featured-panelist-profile {
+.summary-view .view-embedded-panelist-view-field > .view-content featured-panelist-profile {
   flex: 50%;
 }
 
