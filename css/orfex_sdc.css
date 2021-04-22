@@ -635,7 +635,7 @@ div#block-views-upcoming-session-block {
   display: flex;
   flex-flow: column;
 }
-.summary-view .moderator-label {
+.summary-view #main-wrapper #main #content h2.moderator-label {
   text-align: left;
 }
 .summary-view h2 {
